@@ -1,0 +1,13 @@
+; Program Description
+; Author:
+; Creation Date:
+; Revisions:
+; Date:
+.data
+; (insert variables here)
+.code
+main PROC
+; (insert executable instructions here)
+main ENDP
+; (insert additional procedures here)
+END main
