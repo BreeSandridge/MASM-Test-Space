@@ -32,5 +32,8 @@
     <Text Include="ASM_Template">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="Data Types.asm">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

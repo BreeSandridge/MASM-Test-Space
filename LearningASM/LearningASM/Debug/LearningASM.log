@@ -1,6 +1,4 @@
-﻿  Assembling TEST1.asm...
-TEST1.asm(12): warning A4023: with /coff switch, leading underscore required for start address : start
-  Assembling AddAndSub.asm...
-TEST1.obj : warning LNK4258: directive '/ENTRY:start' not compatible with switch '/ENTRY:main'; ignored
-AddAndSub.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
-  LearningASM.vcxproj -> C:\Users\peyto\source\repos\LearningASM\Debug\LearningASM.exe
+﻿  Assembling AddAndSub.asm...
+TEST1.obj : warning LNK4258: directive '/ENTRY:Test1Start' not compatible with switch '/ENTRY:start'; ignored
+AddAndSub.obj : warning LNK4258: directive '/ENTRY:AddAndSumStart@0' not compatible with switch '/ENTRY:start'; ignored
+  LearningASM.vcxproj -> C:\Users\peyto\source\repos\MASM-Test-Space\LearningASM\Debug\LearningASM.exe
