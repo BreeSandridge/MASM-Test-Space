@@ -1,0 +1,14 @@
+﻿  Assembling reverser.asm...
+reverser.asm(1): error A2008: syntax error : .
+reverser.asm(2): error A2008: syntax error : .
+reverser.asm(7): error A2070: invalid instruction operands
+reverser.asm(9): error A2070: invalid instruction operands
+reverser.asm(10): error A2070: invalid instruction operands
+reverser.asm(18): error A2008: syntax error : pushfd
+reverser.asm(27): error A2008: syntax error : popfd
+reverser.asm(30): error A2070: invalid instruction operands
+reverser.asm(31): error A2070: invalid instruction operands
+reverser.asm(32): error A2070: invalid instruction operands
+reverser.asm(35): error A2008: syntax error : Reverser
+reverser.asm(35): error A2088: END directive required at end of file
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\reverser.obj" /W3 /errorReport:prompt  /Tareverser.asm" exited with code 1.
